@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registro alumno</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Registro de Alumno</h1>
+        <br>        <br>
+        <form action="RegistroServlet" method="get">
+        Nombre: <input type="text" id="name" name="name">
+        <br>        <br>
+        Carrera: <form action="prueba/falso" method="get">
+            <select name="Carrera">
+                <option value="Derecho">Licenciatura en Ciencias Jurídicas</option>
+                <option value="Eco">Licenciatura en Economía</option>
+                <option value="Inge">Ingeniería en Negocios</option>
+                <option value="Primero">Primer año</option>
+            </select>
+        
+        <br>        <br>
+        Año:
+            <select name="agno">
+                <option value="Uno">1</option>
+                <option value="Dos">2</option>
+                <option value="Tres">3</option>
+                <option value="Cuatro">4</option>
+                <option value="Cinco">5</option>
+            </select>
+        <br>        <br>
+        Carnet: <input type="number" id="name" name="carnet">
+        <br>        <br>
+        Correo: <input type="text" id="name" name="correo">
+        <br>        <br>
+        Contraseña <input type="password" id="name" name="contrasegna">
+        <br><br>
+                
+        <button class="button">Entrar</button>
+        <input type="hidden" name="formid" value="1"/>
+        </form>
+    </body>
+</html>

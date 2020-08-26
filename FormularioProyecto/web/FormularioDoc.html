@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+                <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <h1>Insertar nuevo documento</h1>
+    <br> <br>
+    <form action="FormularioDocServlet">
+    Tipo: <input type="text" id="name" name="tipo"/>
+    <br> <br>
+    Asignatura: <input type="text" id="name" name="asignatura_id"/>
+    <br> <br>
+    Maestro: <input type="text" id="name" name="usuario_id"/>
+    <br> <br>
+    Año: 
+            <select name="agno">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+      
+    <br><br>
+   
+        
+        <button class="button">Submit</button>
+        <input type="hidden" name="formid" value="1"/>
+    </form>
+  
+    </body>
+</html>
